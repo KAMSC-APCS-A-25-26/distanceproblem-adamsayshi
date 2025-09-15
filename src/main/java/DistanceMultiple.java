@@ -14,15 +14,7 @@ import java.util.Scanner;
 
 public class DistanceMultiple {
     public static void main(String[] args) {
-        //Signature
-        System.out.println("Adam Sagin\nDistance Formula\n");
-
-
-        //Sets the scanner
         Scanner sc = new Scanner(System.in);
-
-
-        //Get and loop number of runs
         System.out.println("How many runs?:  ");
         int runs = sc.nextInt();
         sc.nextLine();
