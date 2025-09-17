@@ -29,7 +29,7 @@ public class DistanceMultiple {
             int y2 = sc.nextInt();
 
             //Calculate and print
-            System.out.println(Math.sqrt(Math.pow(x2-x1, 2) - Math.pow(y2-y1, 2)));
+            System.out.println(Math.sqrt(Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2)));
         }
     }
 }
